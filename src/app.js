@@ -23,7 +23,7 @@ app.use(express.static(publicDirectoryPath));//access to the css/images/javascri
 
 app.get('', (req, res) => {
     res.render('index',{
-        title: 'weather',
+        title: 'Weather',
         name: 'Dilan silva'
     });
 });
